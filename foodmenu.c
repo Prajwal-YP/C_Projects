@@ -44,6 +44,7 @@ main()
 		amt+=tamt;
 		printf("\nYour Order is Ready please pay\t:\tRs.%d",tamt);
 		printf("\n\nContinue with next Order(y/n)\t:\t");
+		fflush(stdin);
 		ch=getche();
 		if(ch=='n' || ch=='N')
 			break;
